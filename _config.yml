@@ -49,27 +49,24 @@ google_analytics: "G-V1Y5X4WH7L"
 about_profile_image: images/1-sticker.png
 about_content: | # this will include new lines to allow paragraphs
   With 18+ years of versatile engineering leadership experience, I drive technological innovation and digital transformation across diverse domains including Machine Learning, Fraud Detection, Data Engineering, and Enterprise Solutions. Currently serving as Lead Engineer (Lead ML/Data Engineer) at Grab, Singapore, specializing in building scalable AI-powered systems and data platforms.
+#**Core Competencies**:
+#***Technical Leadership***
+#- Data Architect with expertise in designing enterprise-scale data lakes and warehouses
+#- API Evangelist fostering microservices adoption and integration patterns
+#- Solution Architect specializing in AWS Cloud native architectures
+#- Advanced problem-solving through systematic analysis and innovative solutions
+#***AI Engineering Excellence***
+#- Prompt Engineering Expert - Designing and optimizing LLM interactions for enterprise use cases
+#- AI/ML Pipeline Architect - Building end-to-end ML workflows with MLOps best practices
+#- RAG Framework Specialist - Implementing production-grade retrieval-augmented generation systems
+#- AI Agents Architect - Developing autonomous AI agents for business process automation
+#***Domain Expertise***
+#- Fraud Detection & Risk Management
+#- Banking Systems (Merchant & Customer Portals)
+#- Order Management & E-commerce
+#- Data Center Operations
+#- REST-based Middleware & Microservices
 
-  **Core Competencies**:
-
-  ***Technical Leadership***
-  - Data Architect with expertise in designing enterprise-scale data lakes and warehouses
-  - API Evangelist fostering microservices adoption and integration patterns
-  - Solution Architect specializing in AWS Cloud native architectures
-  - Advanced problem-solving through systematic analysis and innovative solutions
-
-  ***AI Engineering Excellence***
-  - Prompt Engineering Expert - Designing and optimizing LLM interactions for enterprise use cases
-  - AI/ML Pipeline Architect - Building end-to-end ML workflows with MLOps best practices
-  - RAG Framework Specialist - Implementing production-grade retrieval-augmented generation systems
-  - AI Agents Architect - Developing autonomous AI agents for business process automation
-
-  ***Domain Expertise***
-  - Fraud Detection & Risk Management
-  - Banking Systems (Merchant & Customer Portals)
-  - Order Management & E-commerce
-  - Data Center Operations
-  - REST-based Middleware & Microservices
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
