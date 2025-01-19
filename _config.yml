@@ -3,7 +3,7 @@ repository: kamesh-se/kamesh-se.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Kamesh
@@ -171,6 +171,7 @@ content:
       Alongside my interests in AI, ML and software engineering some of my other interests and hobbies are:
       - Running
       - Writing blogs [link](https://kamesh-c.medium.com/) 
+      - Grab engineering blogs [link](https://engineering.grab.com/data-observability)
 
 # Footer
 footer_show_references: true
