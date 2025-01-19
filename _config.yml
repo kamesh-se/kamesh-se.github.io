@@ -74,7 +74,6 @@ about_content: | # this will include new lines to allow paragraphs
   - Data Center Operations
   - REST-based Middleware & Microservices
 
-  My approach combines deep technical expertise with strategic thinking to deliver scalable, AI-powered solutions that drive business value while maintaining high standards of security and performance.
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
