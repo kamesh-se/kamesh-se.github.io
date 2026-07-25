@@ -3,11 +3,11 @@ repository: kamesh-se/kamesh-se.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Kamesh
-title: Lead engineer  
+title: Lead ML & Data Engineer | AI Systems & Fraud Detection
 email: kamesh.chandran@gmail.com
 website: kamesh-se.github.io
 
@@ -48,24 +48,25 @@ google_analytics: "G-V1Y5X4WH7L"
 # about_title: About Me
 about_profile_image: images/1-sticker.png
 about_content: | # this will include new lines to allow paragraphs
-  With 18+ years of versatile engineering leadership experience, I drive technological innovation and digital transformation across diverse domains including Machine Learning, Fraud Detection, Data Engineering, and Enterprise Solutions. Currently serving as Lead Engineer (Lead ML/Data Engineer) at Grab, Singapore, specializing in building scalable AI-powered systems and data platforms.
+  20+ years in engineering, the last few leading ML and data engineering for Grab's Trust, Identity & Safety team in Singapore. I build the fraud detection models and data pipelines that watch transactions across Grab's platform. Lately that work has shifted toward LLM applications: device checks, tamper detection, automated fraud reporting, and most of my own coding now runs through agents like <mark>Claude Code</mark>. Before Grab I built banking, e-commerce and aerospace platforms, which is where the systems design habits come from.
 
   **Core Competencies**:
 
-  ***Technical Leadership***
-  - Data Architect with expertise in designing enterprise-scale data lakes and warehouses
-  - API Evangelist fostering microservices adoption and integration patterns
-  - Solution Architect specializing in AWS Cloud native architectures
-  - Advanced problem-solving through systematic analysis and innovative solutions
+  ***Engineering Leadership***
+  - Led teams of up to 10 engineers across fraud detection, data platform and portal projects, from design through production support
+  - Pushed LLM-assisted development and agentic workflows into the team's daily practice, starting from my own experiments
+  - Data Architect for enterprise-scale data lakes and warehouses; Solution Architect on AWS cloud native systems
+  - Take ambiguous problems and own them until they ship
 
-  ***AI Engineering Excellence***
-  - Prompt Engineering Expert - Designing and optimizing LLM interactions for enterprise use cases
-  - AI/ML Pipeline Architect - Building end-to-end ML workflows with MLOps best practices
-  - RAG Framework Specialist - Implementing production-grade retrieval-augmented generation systems
-  - AI Agents Architect - Developing autonomous AI agents for business process automation
+  ***AI Engineering & LLM Tooling***
+  - Prompt engineering and RAG systems, running in production
+  - ML pipelines built with MLOps practices, from training through monitoring
+  - Autonomous agents for business process automation, plus agentic workflow experiments with OpenAI and Hermes-family frameworks
+  - Daily driver tools: <mark>Claude Code</mark>, <mark>Cursor</mark>, <mark>Codex</mark>
 
   ***Domain Expertise***
-  - Fraud Detection & Risk Management
+  - Fraud Detection & Risk Management - real-time ML systems watching millions of transactions
+  - AI-powered products - LLM applications, agents and internal AI tooling in production
   - Banking Systems (Merchant & Customer Portals)
   - Order Management & E-commerce
   - Data Center Operations
@@ -88,10 +89,14 @@ content:
 
           **Modules Lead and contributed**:
           - Work on problems that run the gamut from data science to deploying and monitoring models in production.
-          - Build and deploy scalable machine learning models to enable our fraud, risk and safety systems.
+          - Build and deploy machine learning models for fraud, risk and safety. Scam rings across Southeast Asia keep getting more organized and automated, which has made <mark>fraud detection</mark> one of Grab's most closely watched business lines.
+          - Built 10+ internal skill plugins that turn raw case data into <mark>Modus Operandi (MO) reports</mark>, cutting down the manual work investigators used to do piecing together how a scam actually played out.
+          - Designed and maintain 10+ LLM-based applications in production - device information analysis, food preference inference, and tamper detection that catches cloned apps, auto-clickers and other scripted abuse before it reaches real users.
           - Analyze data and define metrics for feature evaluation and model performance.
           - Design and implement robust data pipelines.
           - Identify and build new approaches and methods for machine learning as we grow.
+          - Do most day-to-day coding with Claude Code, Cursor and Codex.
+          - Prototyped agentic workflows with OpenAI and Hermes-family agent frameworks, including a Slack bot that pulls fraud signals on demand.
           - Framework and technical:  Java 11, Scala, Flink, Elasticsearch, Kafka Streaming, Terragrunt, AWS EC2, S3 and DynamoDB.
 
       - layout: left
@@ -180,6 +185,15 @@ content:
         caption: 2000 - 2003
         sub_title: Diploma in Computer Technology 
         quote: KAR Polytechnic college, Ambur, Tamilnadu, India
+  - title: LLM & AI Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Most of my coding now goes through <mark>Claude Code</mark>, <mark>Cursor</mark> and <mark>Codex</mark>. Claude Code handles feature work, refactors and debugging; Cursor covers in-editor pair programming; Codex does generation and review.
+
+      On the applied side at Grab: 10+ LLM applications running in production (device information analysis, food preference inference, tamper and cloned-app detection), plus 10+ skill plugins that write Modus Operandi fraud reports so investigators don't have to assemble them by hand. The plumbing behind these is prompt engineering, RAG and ML pipelines with proper MLOps.
+
+      I also tinker with agents - prototyped workflows on <mark>OpenAI</mark> and <mark>Hermes-family</mark> frameworks, including a Slack bot that pulls fraud signals on demand.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
