@@ -3,11 +3,11 @@ repository: kamesh-se/kamesh-se.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Kamesh
-title: Lead ML & Data Engineer | AI Systems & Fraud Detection
+title: Lead engineer  
 email: kamesh.chandran@gmail.com
 website: kamesh-se.github.io
 
@@ -47,6 +47,8 @@ google_analytics: "G-V1Y5X4WH7L"
 # About Section
 # about_title: About Me
 about_profile_image: images/1-sticker.png
+about_content: | # this will include new lines to allow paragraphs
+  about_profile_image: images/1-sticker.png
 about_content: | # this will include new lines to allow paragraphs
   20+ years in engineering, the last few leading ML and data engineering for Grab's Trust, Identity & Safety team in Singapore. I build the fraud detection models and data pipelines that watch transactions across Grab's platform. Lately that work has shifted toward LLM applications: device checks, tamper detection, automated fraud reporting, and most of my own coding now runs through agents like <mark>Claude Code</mark>. Before Grab I built banking, e-commerce and aerospace platforms, which is where the systems design habits come from.
 
@@ -185,15 +187,6 @@ content:
         caption: 2000 - 2003
         sub_title: Diploma in Computer Technology 
         quote: KAR Polytechnic college, Ambur, Tamilnadu, India
-  - title: LLM & AI Skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Most of my coding now goes through <mark>Claude Code</mark>, <mark>Cursor</mark> and <mark>Codex</mark>. Claude Code handles feature work, refactors and debugging; Cursor covers in-editor pair programming; Codex does generation and review.
-
-      On the applied side at Grab: 10+ LLM applications running in production (device information analysis, food preference inference, tamper and cloned-app detection), plus 10+ skill plugins that write Modus Operandi fraud reports so investigators don't have to assemble them by hand. The plumbing behind these is prompt engineering, RAG and ML pipelines with proper MLOps.
-
-      I also tinker with agents - prototyped workflows on <mark>OpenAI</mark> and <mark>Hermes-family</mark> frameworks, including a Slack bot that pulls fraud signals on demand.
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
