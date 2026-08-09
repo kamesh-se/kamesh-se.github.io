@@ -6,13 +6,13 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Kamesh
-title: Lead engineer  
+name: Kamesh Chandran
+title: Engineering Leader, Fraud & Risk Systems
 email: kamesh.chandran@gmail.com
 website: kamesh-se.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 #twitter_username: facespics
@@ -39,18 +39,16 @@ linkedin_username: kameshchandran
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-gtm: "G-V1Y5X4WH7L"
-gtag: "G-V1Y5X4WH7L"
+# Using more than one of these may cause issues with reporting.
+# G-XXXXXXX is a GA4 measurement ID and belongs only in google_analytics.
+# gtm: expects a GTM container ID (GTM-XXXXXXX), so it is left unset.
 google_analytics: "G-V1Y5X4WH7L"
 
 # About Section
 # about_title: About Me
 about_profile_image: images/1-sticker.png
 about_content: | # this will include new lines to allow paragraphs
-  about_profile_image: images/1-sticker.png
-about_content: | # this will include new lines to allow paragraphs
-  20+ years in engineering, the last few leading ML and data engineering for Grab's Trust, Identity & Safety team in Singapore. I build the fraud detection models and data pipelines that watch transactions across Grab's platform. Lately that work has shifted toward LLM applications: device checks, tamper detection, automated fraud reporting, and most of my own coding now runs through agents like <mark>Claude Code</mark>. Before Grab I built banking, e-commerce and aerospace platforms, which is where the systems design habits come from.
+  20+ years in engineering, the last few leading ML and data engineering for Grab's Trust, Identity & Safety team in Singapore. I build the fraud detection models and data pipelines that watch transactions across Grab's platform. Lately that work has shifted toward <mark>LLM applications</mark>: device checks, tamper detection, automated fraud reporting, and most of my own coding now runs through agents like <mark>Claude Code</mark>. Before Grab I built banking, e-commerce and aerospace platforms, which is where the systems design habits come from.
 
   **Core Competencies**:
 
@@ -67,7 +65,7 @@ about_content: | # this will include new lines to allow paragraphs
   - Daily driver tools: <mark>Claude Code</mark>, <mark>Cursor</mark>, <mark>Codex</mark>
 
   ***Domain Expertise***
-  - Fraud Detection & Risk Management - real-time ML systems watching millions of transactions
+  - Fraud Detection & Risk Management - real-time ML scoring transactions across 8 business lines
   - AI-powered products - LLM applications, agents and internal AI tooling in production
   - Banking Systems (Merchant & Customer Portals)
   - Order Management & E-commerce
@@ -78,27 +76,27 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left 
+      - layout: left
         title: Grab
         link: grab.com
-        sub_title: Lead Data Engineer
+        sub_title: Lead Data Engineer, Trust, Identity & Safety
         caption: September 2021 - Present
         icon: fab fa-github
         quote: >
           Grab - the leading super app in Southeast Asia - combines transport, food delivery, logistics, financial services, and much more in a single platform and its mobile application in Cambodia, Indonesia, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Vietnam. The company is headquartered in Singapore
         description: |
-          The TIS (Trust, Identity & Safety) department acts as guardians of all users on Grab. It closely monitors every event such as account login, booking and transactions on the platform for over 8 major business lines across Grab, making data driven decisions in milliseconds. The association with current organization helps to address the cutting edge industrial <mark>fraud detection</mark> problem to solve within an year of association.
+          The TIS (Trust, Identity & Safety) department acts as guardians of all users on Grab. It closely monitors every event such as account login, booking and transactions on the platform for over 8 major business lines across Grab, making data driven decisions in milliseconds. I lead the machine learning and data engineering behind that: the models that score transactions in real time, and the tooling the investigators use on the cases those models flag.
 
           **Modules Lead and contributed**:
           - Work on problems that run the gamut from data science to deploying and monitoring models in production.
           - Build and deploy machine learning models for fraud, risk and safety. Scam rings across Southeast Asia keep getting more organized and automated, which has made <mark>fraud detection</mark> one of Grab's most closely watched business lines.
-          - Built 10+ internal skill plugins that turn raw case data into <mark>Modus Operandi (MO) reports</mark>, cutting down the manual work investigators used to do piecing together how a scam actually played out.
-          - Designed and maintain 10+ LLM-based applications in production - device information analysis, food preference inference, and tamper detection that catches cloned apps, auto-clickers and other scripted abuse before it reaches real users.
+          - Automated <mark>Modus Operandi (MO) reports</mark>, turning raw case data into the story of how a scam actually played out. Investigators used to piece that together by hand.
+          - Designed and maintain the <mark>LLM applications</mark> running in production: device information analysis, food preference inference, and tamper detection that catches cloned apps, auto-clickers and other scripted abuse before it reaches real users.
+          - Prototyped agentic workflows with OpenAI and Hermes-family agent frameworks, including a Slack bot that pulls fraud signals on demand.
           - Analyze data and define metrics for feature evaluation and model performance.
           - Design and implement robust data pipelines.
           - Identify and build new approaches and methods for machine learning as we grow.
           - Do most day-to-day coding with Claude Code, Cursor and Codex.
-          - Prototyped agentic workflows with OpenAI and Hermes-family agent frameworks, including a Slack bot that pulls fraud signals on demand.
           - Framework and technical:  Java 11, Scala, Flink, Elasticsearch, Kafka Streaming, Terragrunt, AWS EC2, S3 and DynamoDB.
 
       - layout: left
@@ -110,32 +108,31 @@ content:
         quote: >
           Equinix's single global platform helped digital leaders stay out front for more than 20 years. Interconnect your digital infrastructure to scale with agility, leveraging leading enterprises and service providers in ecosystems that multiply value for all. At Equinix, we see every day as a fresh opportunity to help you fast track your digital advantage.
         description: | # this will include new lines to allow paragraphs
-          Equinix's Colocations platform provides interconnections between digital enterprises. The customer can avail the colocations services offered and provides all the aftermarket facilities like billing in a single unified platform. Customers can utilize multiple channels, web, mobile, and Partner API for direct Integration. The organization has given me the most challenging data center industrial problem to solve with <mark>6+ years</mark> association.
-
+          Equinix's Colocations platform provides interconnections between digital enterprises. Customers can buy colocation services and handle everything after the sale, billing included, in one platform, reached through web, mobile, or a partner API. Six years on the hardest problems the data center industry had to offer.
 
           **Modules Lead and contributed**:
-          - Enterprise Search Engine - Search is a permission drive search engine; this allows the user to multilingual search queries to find relevant information. Relevancy and racking are designed based on business domain fields to provide a seamless user experience. 
-          - Unified Notifications service - Unified notification message services with services like firebase, MS teams, Azure queue, SMS, and email. 
-          - Interconnection LOA management - The LOA process helps an approval process that allows establishing connection between two customers. 
+          - Enterprise Search Engine - a permission driven search engine that lets users run multilingual queries to find relevant information. Relevancy and ranking are tuned against business domain fields rather than generic text scoring, so results match what customers were actually looking for.
+          - Unified Notifications service - one notification layer in front of firebase, MS teams, Azure queue, SMS, and email, replacing the per-channel integrations scattered across the platform.
+          - Interconnection LOA management - the approval process that establishes a connection between two customers.
           - Machine learnings projects
-            - Smart Discovery - Discovering the user actions based on users' attachment or description. Based on attachment content or request descriptions, the ML model will recommend order types and pre-populate the necessary details. 
-            - Order Recommendation - This ML models recommend that the user place the connected orders based on frequent action. ML model allows to reduce the number of clicks and predicts the dependent orders. 
+            - Smart Discovery - reads the attachment content or request description and recommends the order type, then pre-populates the details the user would otherwise fill in by hand.
+            - Order Recommendation - predicts dependent orders from frequent action patterns, so placing a connected order takes fewer clicks.
       - layout: left
-        title: FIS (Fidelity information's Solution)
+        title: FIS (Fidelity National Information Services)
         link: fisglobal.com
         sub_title: Technical Lead Engineer
         caption: July 2014 - December 2015
         quote: >
-          FIS stays ahead of how the world is evolving to power businesses, across merchants, banking and capital markets, to outpace today’s fast-changing competitive landscape and help our clients run, grow and achieve more for their business. 
+          FIS stays ahead of how the world is evolving to power businesses, across merchants, banking and capital markets, to outpace today’s fast-changing competitive landscape and help our clients run, grow and achieve more for their business.
         description: | # this will include new lines to allow paragraphs
-          The organization needs banking solutions online to facilitate the buyer and seller to check the balance and make payments. I was the lead engineer to provide generic solutions for merchants and customers to view and manage any transaction life cycle. Portal will help the FIS Customer get them out of the box solutions with a white labeling option. The organization has given me multiple opportunities to mature my industrial banking experience in a short period of <mark>1.6 years</mark>.           
-          
+          FIS needed online banking solutions so buyers and sellers could check balances and make payments. I was the lead engineer on the generic portal layer that let merchants and customers view and manage any transaction life cycle, shipped to FIS customers as an out of the box product with white labeling. A short stretch, <mark>1.6 years</mark>, that packed in a lot of banking domain experience.
+
           **Modules Lead and contributed**:
-          - Merchant Portal - Facilitates mPOS device association with seller. This portal provides seller to manage successful transactions and refunds. The frameworks used in this project are <mark>Angular JS</mark> as single page applications backed by middleware technology <mark>Spring 4.x, Java 8 and Nginx</mark>
-          - Prepaid Customer Portal (Mobile wallet)- Facilitates mPOS device association with seller. This portal provides seller to manage successful transactions and refunds. The frameworks used in this project are <mark>Angular JS</mark> as single page applications backed by middleware technology <mark>Spring 4.x, Java 8 and Nginx</mark>
-          - OTP platform Service - One time password solutions used as 2 factor authentications for any payment authorizations or authorizing user for verifications. The frameworks use in this project are Apache Camel, Scala, SMS Gateway services.
+          - Merchant Portal - handles mPOS device association for sellers and lets them manage settled transactions and refunds. Built as an <mark>Angular JS</mark> single page application over middleware in <mark>Spring 4.x, Java 8 and Nginx</mark>.
+          - Prepaid Customer Portal (Mobile wallet) - balance, top-up and transaction history for prepaid wallet holders, sharing the portal platform and white labeling layer with the merchant product.
+          - OTP platform Service - one time password solutions used as 2 factor authentications for any payment authorizations or authorizing user for verifications. The frameworks use in this project are Apache Camel, Scala, SMS Gateway services.
           - POC:
-            - Aadhaar based KYC approval for customer - Creating back account based on aadhaar mobile number and finger print solutions to create a back account. The frameworks use in this project are Angular JS, Apache Cordova, finger print scanner, android. 
+            - Aadhaar based KYC approval for customer - opening a bank account from an Aadhaar linked mobile number and a fingerprint capture. The frameworks use in this project are Angular JS, Apache Cordova, finger print scanner, android.
       - layout: left
         title: HTSL (Honeywell Technology Solutions Lab)
         link: aerospace.honeywell.com
@@ -144,27 +141,26 @@ content:
         quote: >
          Honeywell Technology Solutions Lab Private Limited is a computer software company
         description: | # this will include new lines to allow paragraphs
-          Portal has the ability to airplane product orders and manages the warranty for Honeywell aerospace-related offerings. Portal facilitates engineers to download engine technical documentation based. Customers will have the option to make payment for the rented airplane engines or services offerings. During <mark>7.6 years</mark> of the journey, organizations have given me multiple opportunities to mature aerospace industrial experience. I played various roles from time to time for 16 months as an on-site coordinator, five years as a technical lead with a team size of 10 members, two years as an engineer, and six months as an intern trainee. During my organizations' journey, I was an active member in evaluating technology and innovative solutions. 
-         
-          
+          Nearly eight years on Honeywell's aerospace customer platform. The portal handles airplane product orders and warranty for Honeywell aerospace offerings, lets engineers download engine technical documentation, and takes payment for rented engines and services. <mark>Five of those years I was technical lead of a 10 person team</mark>, plus 16 months as on-site coordinator, two years as an engineer and six months as an intern trainee. This is where I learned to lead engineers, and I spent a lot of it evaluating technology and pushing for better solutions.
+
           **Modules Lead and contributed**:
-          - Aerospace Portal - A leading web portal for Honeywell Aerospace customer and Customer support representatives to place orders, collate information on the order, download the technical document, and search for field service engineer and support locator. The frameworks used in this project are <mark>Websphere Portal 7, Sprint Portlets and Generic portlets</mark>. 
-          - SHARED Portal Migration - Enable Honeywell’s airline customers to access value-added aftermarket service for their MRO requirements through migration of SHARED system functionality to the MyAerospace portal. Solutions is based on Spring 3.x, MyBatis, Ajax and Websphere portal server.
-          - Plymouth Migration - Reselling portal enabling customers & employees to search & browse through the catalog, add to cart and process with placing an order. The frameworks used in this project are SAP ECC eSelling, XCM, NWDS.
-          - ATR Catalog - Enable internal Honeywell’s sales rep to access ATR catalog form any mobile device. This allows configuring and downloading the catalog online and persists them on the devices. Especially when they are in the Aero show conference 
+          - Aerospace Portal - the main web portal for Honeywell Aerospace customers and customer support representatives to place orders, collate information on an order, download technical documents, and search for field service engineers and support locations. Built on <mark>Websphere Portal 7, Spring Portlets and generic portlets</mark>.
+          - SHARED Portal Migration - migrated SHARED system functionality into the MyAerospace portal so Honeywell's airline customers could reach value-added aftermarket service for their MRO requirements. Built on Spring 3.x, MyBatis, Ajax and Websphere portal server.
+          - Plymouth Migration - reselling portal where customers and employees search and browse the catalog, add to cart and place an order. The frameworks used in this project are SAP ECC eSelling, XCM, NWDS.
+          - ATR Catalog - put the ATR catalog on any mobile device for Honeywell's internal sales reps, configurable and downloadable so it persists on the device. Useful when they are out at an Aero show conference.
           - Other Projects
             - HSCE - Honeywell Health and Safety system Portal
             - Teardown Management system - Barcode generation, for comparing LCD productions for Honeywell Patterns
             - HonBoard - Online whiteboard solutions like "Miro"
             - Catalogic - IPad Applications for Aerospace Catalog for sales and marketing.
-            - Integrated Supply chain - <mark>SAP Enterprise Portal</mark> Solution based for Supply chain management. 
-            - Single Singe On Integration - using saml defining authorizations and authentications between multiple systems
+            - Integrated Supply chain - <mark>SAP Enterprise Portal</mark> Solution based for Supply chain management.
+            - Single Sign On Integration - using saml defining authorizations and authentications between multiple systems
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The University of Texas, Executions Educations
+        title: The University of Texas at Austin, Executive Education
         caption: 2019 - 2020
         sub_title: Post Graduate certificate Program - Artificial intelligence and Machine learning
         link: |
@@ -172,27 +168,25 @@ content:
         quote: >
           The University of Texas at Austin, shortened to UT Austin, UT, or Texas, is a public research university in Austin, Texas and the flagship institution of the University of Texas System.
         description: | # this will include new lines to allow paragraphs
-          I learn to create and manage machine learning models during the modern way of online education—the basics skill like cleansing the data for model prediction, PCA, and Feature engineering. I learned to organize the data and understand the business use case to predict the models.
+          I went back to school for machine learning after a decade of platform engineering. Cleansing data for model prediction, PCA, feature engineering, then building and managing the models themselves. The part that stuck was learning to read a business use case well enough to know what you are actually predicting.
       - layout: left
-        title: JJ College of engineering (Affiliated to Anna University)
+        title: JJ College of Engineering (Affiliated to Anna University)
         caption: 2003 - 2006
         sub_title: BE Computer Science
-        quote: JJ Colleger of Engineering affiliated to Anna University
+        quote: JJ College of Engineering, affiliated to Anna University
         description: | # this will include new lines to allow paragraphs
-          During my time at College I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *College Developer Community* taking on roles such as arranging hacking sessions for juniors *Hackathon Organizer* and *Cultural Event Vice-President*.
+          Committee member of the *College Developer Community*, where I arranged hacking sessions for juniors, organized hackathons and served as Cultural Event Vice-President.
       - layout: left
-        title: Department of Technical Educations
+        title: Department of Technical Education
         caption: 2000 - 2003
-        sub_title: Diploma in Computer Technology 
+        sub_title: Diploma in Computer Technology
         quote: KAR Polytechnic college, Ambur, Tamilnadu, India
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in AI, ML and software engineering some of my other interests and hobbies are:
       - Running
-      - Writing blogs [link](https://kamesh-c.medium.com/) 
+      - Writing blogs [link](https://kamesh-c.medium.com/)
       - Grab engineering blogs [link](https://engineering.grab.com/data-observability)
 
 # Footer
@@ -207,4 +201,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-ta
+  - jekyll-seo-tag
